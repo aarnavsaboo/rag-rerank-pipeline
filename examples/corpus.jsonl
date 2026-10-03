@@ -1,0 +1,3 @@
+{"id":"d1","text":"Reciprocal-rank fusion combines ranked lists using a reciprocal function of each rank.","source":"retrieval"}
+{"id":"d2","text":"Cross-encoder rerankers score query-document pairs after an initial retrieval stage.","source":"reranking"}
+{"id":"d3","text":"Local generation latency includes prompt processing and output decoding.","source":"inference"}

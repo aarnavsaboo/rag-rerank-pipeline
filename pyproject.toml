@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-rerank-pipeline"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=3"]
+
+[project.scripts]
+rag-rerank-pipeline = "rag_rerank_pipeline.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["rag_rerank_pipeline*"]
