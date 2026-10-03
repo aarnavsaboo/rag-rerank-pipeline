@@ -103,3 +103,9 @@ That means a final answer can be traced back through the exact ranked candidates
 - `configs/` — experiment manifests
 
 Maintained by **Aarnav Saboo**.
+
+## Tests
+
+```bash
+python -m unittest discover -s tests -v
+```
