@@ -58,11 +58,10 @@ BM25 retrieval      dense retrieval
 ## Example
 
 ```bash
-python -m rag_rerank_pipeline build examples/corpus.jsonl --out runs/index.json
-
 python -m rag_rerank_pipeline run \
   configs/pipeline.example.json \
   examples/queries.jsonl \
+  --corpus examples/corpus.jsonl \
   --out runs/results.jsonl
 
 python -m rag_rerank_pipeline report runs/results.jsonl
